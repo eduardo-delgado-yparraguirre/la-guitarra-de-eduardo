@@ -270,6 +270,7 @@ function drawSong() {
   if (meta.capo) pills.push(`<span class="pill">Capo <b>${esc(meta.capo)}</b></span>`);
   if (meta.tempo) pills.push(`<span class="pill">Tempo <b>${esc(meta.tempo)}</b></span>`);
   if (meta.strum) pills.push(`<span class="pill">Rasgueo <b>${esc(meta.strum)}</b></span>`);
+  if (meta.link) pills.push(`<a class="pill" href="${esc(meta.link)}" target="_blank" rel="noopener">Letra y acordes ↗</a>`);
   const yt = meta.youtube || `https://www.youtube.com/results?search_query=${encodeURIComponent(`${info.artist} ${info.title}`)}`;
   pills.push(`<a class="pill" href="${esc(yt)}" target="_blank" rel="noopener">▶ Escuchar en YouTube</a>`);
 

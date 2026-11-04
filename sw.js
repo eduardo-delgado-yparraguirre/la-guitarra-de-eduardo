@@ -1,8 +1,8 @@
-// Offline support: keeps the app and every song cached on the phone.
+﻿// Offline support: keeps the app and every song cached on the phone.
 // Serves from cache immediately and refreshes it in the background.
 // Bump VERSION when the app files change to drop old caches.
 
-const VERSION = "v2";
+const VERSION = "v3";
 const CACHE = `guitarra-${VERSION}`;
 const SHELL = [
   "./", "index.html", "assets/style.css", "assets/app.js", "assets/chords.js",
