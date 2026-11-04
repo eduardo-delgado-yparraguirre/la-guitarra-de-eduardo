@@ -1,0 +1,676 @@
+[
+ {
+  "slug": "alanis-hand-in-my-pocket",
+  "title": "Hand in my pocket",
+  "artist": "Alanis",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "alanis-you-oughta-know",
+  "title": "You Oughta Know",
+  "artist": "Alanis",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "alma-corazon-y-vida",
+  "title": "Alma, Corazon, y Vida",
+  "artist": "",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "andres-calamaro-flaca",
+  "title": "Flaca",
+  "artist": "Andres Calamaro",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "bacilos-cara-luna",
+  "title": "Cara Luna",
+  "artist": "Bacilos",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "bacilos-tabaco-y-channel",
+  "title": "Tabaco y Channel",
+  "artist": "Bacilos",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "beatles-i-saw-her-standing-there-lyrics",
+  "title": "I Saw Her Standing There",
+  "artist": "Beatles",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "beatles-imagine",
+  "title": "Imagine",
+  "artist": "Beatles",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "beatles-she-love-you-yeah",
+  "title": "She love you yeah",
+  "artist": "Beatles",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "beatles-twist-and-shout",
+  "title": "Twist and shout",
+  "artist": "Beatles",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "beatles-yesterday",
+  "title": "Yesterday",
+  "artist": "Beatles",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "blind-melon-no-rain",
+  "title": "No rain",
+  "artist": "Blind Melon",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "bruno-mars-the-lazy-song",
+  "title": "The Lazy Song",
+  "artist": "Bruno Mars",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "cake-i-will-survive",
+  "title": "I will survive",
+  "artist": "Cake",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "coldplay-yellow",
+  "title": "Yellow",
+  "artist": "Coldplay",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "contigo-peru-zambo-cavero",
+  "title": "Contigo Peru",
+  "artist": "Zambo Cavero",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "cuando-llora-mi-guitarra",
+  "title": "Cuando llora mi guitarra",
+  "artist": "",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "eagles-hotel-california",
+  "title": "Hotel California",
+  "artist": "Eagles",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "el-ultimo-de-la-fila-como-un-burro-amarrado-en-la-puerta-del-baile",
+  "title": "Como un burro amarrado en la puerta del baile",
+  "artist": "El ultimo de la fila",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "el-último-beso-los-doltons",
+  "title": "El Último Beso",
+  "artist": "Los Doltons",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "enanitos-verdes-cada-vez-que-te-digo-adios",
+  "title": "Cada vez que te digo adios",
+  "artist": "Enanitos Verdes",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "enanitos-verdes-el-guerrero",
+  "title": "El guerrero",
+  "artist": "Enanitos Verdes",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "enanitos-verdes-igual-que-ayer",
+  "title": "Igual que ayer",
+  "artist": "Enanitos Verdes",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "enanitos-verdes-la-muralla-verde",
+  "title": "La muralla verde",
+  "artist": "Enanitos Verdes",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "enanitos-verdes-lamento-boliviano",
+  "title": "Lamento boliviano",
+  "artist": "Enanitos Verdes",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "enanitos-verdes-por-el-resto",
+  "title": "Por el resto",
+  "artist": "Enanitos Verdes",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "enanitos-verdes-te-vi-en-un-tren",
+  "title": "Te vi en un tren",
+  "artist": "Enanitos Verdes",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "fonsi-despacito",
+  "title": "Despacito",
+  "artist": "Fonsi",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "gianmarco-dos-historias",
+  "title": "Dos historias",
+  "artist": "Gianmarco",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "gianmarco-no-puedo-amarte",
+  "title": "No puedo amarte",
+  "artist": "Gianmarco",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "gianmarco-se-que-piensas-en-mi",
+  "title": "Se que piensas en mi",
+  "artist": "Gianmarco",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "gianmarco-te-mentiria",
+  "title": "Te mentiria",
+  "artist": "Gianmarco",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "gianmarco-tomate-el-tiempo-que-quieras",
+  "title": "Tomate el tiempo que quieras",
+  "artist": "Gianmarco",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "git-ana",
+  "title": "Ana",
+  "artist": "Git",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "green-day-basket-case",
+  "title": "Basket Case",
+  "artist": "Green Day",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "hector-lavoe-el-cantante",
+  "title": "El cantante",
+  "artist": "Hector Lavoe",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "jarabe-de-palo-flaca",
+  "title": "Flaca",
+  "artist": "Jarabe de Palo",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "journey-dont-stop-believing",
+  "title": "Don't stop believing",
+  "artist": "Journey",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "libido-hembra",
+  "title": "Hembra",
+  "artist": "Libido",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "libido-la-casa-de-los-gritos",
+  "title": "La casa de los gritos",
+  "artist": "Libido",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "libido-libido",
+  "title": "Libido",
+  "artist": "Libido",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "libido-respirando",
+  "title": "Respirando",
+  "artist": "Libido",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "libido-tres",
+  "title": "Tres",
+  "artist": "Libido",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "los-rodriguez-sin-documentos",
+  "title": "Sin documentos",
+  "artist": "Los Rodriguez",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "lynyrd-skynyrd-sweet-home-alabama",
+  "title": "Sweet Home Alabama",
+  "artist": "Lynyrd Skynyrd",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "magdalena-nsqnsc",
+  "title": "Magdalena",
+  "artist": "NSQNSC",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "mana-clavado-en-un-bar",
+  "title": "Clavado en un bar",
+  "artist": "Mana",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mana-corazon-espinado",
+  "title": "Corazon Espinado",
+  "artist": "Mana",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mana-me-vale",
+  "title": "Me vale",
+  "artist": "Mana",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mana-oye-mi-amor",
+  "title": "Oye mi amor",
+  "artist": "Mana",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mana-rayando-el-sol",
+  "title": "Rayando el Sol",
+  "artist": "Mana",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mana-sigue-lloviendo",
+  "title": "Sigue lloviendo",
+  "artist": "Mana",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mana-tu-tienes-lo-que-quiero",
+  "title": "Tu tienes lo que quiero",
+  "artist": "Mana",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mana-vivir-sin-aire",
+  "title": "Vivir sin aire",
+  "artist": "Mana",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mar-de-copas-adios-amor",
+  "title": "Adios amor",
+  "artist": "Mar de Copas",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mar-de-copas-otra-cancion",
+  "title": "Otra cancion",
+  "artist": "Mar de Copas",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mar-de-copas-prendi-otro-fuego-por-ella",
+  "title": "Prendi otro fuego por ella",
+  "artist": "Mar de Copas",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mi-peru-hermanos-zanartu",
+  "title": "Mi Peru",
+  "artist": "Hermanos Zanartu",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "mojarras-triciclo-peru",
+  "title": "Triciclo Peru",
+  "artist": "Mojarras",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "mostro-de-almendariz-nsqnsc",
+  "title": "Mostro de Almendariz",
+  "artist": "NSQNSC",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "nino-bravo-libre",
+  "title": "Libre",
+  "artist": "Nino Bravo",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "nino-bravo-un-beso-y-una-flor",
+  "title": "Un beso y una flor",
+  "artist": "Nino Bravo",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "oasis-dont-look-back-in-anger",
+  "title": "Don't Look Back In Anger",
+  "artist": "Oasis",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "oasis-wonderwall",
+  "title": "Wonderwall",
+  "artist": "Oasis",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "pasamayo-maldito-nsqnsc",
+  "title": "Pasamayo Maldito",
+  "artist": "NSQNSC",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "prisioneros-estrechez-de-corazon",
+  "title": "Estrechez de Corazon",
+  "artist": "Prisioneros",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "prisioneros-tren-al-sur",
+  "title": "Tren al Sur",
+  "artist": "Prisioneros",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "puerto-montt-los-iracundos",
+  "title": "Puerto Montt",
+  "artist": "Los Iracundos",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "queen-crazy-little-thing-called-love",
+  "title": "Crazy Little Thing Called Love",
+  "artist": "Queen",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "queen-dont-stop-me-now",
+  "title": "Don't Stop Me Now",
+  "artist": "Queen",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "radio-head-high-and-dry",
+  "title": "High and Dry",
+  "artist": "Radiohead",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "rem-loosing-my-religion",
+  "title": "Losing my religion",
+  "artist": "R.E.M.",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "roberto-carlos-detalles",
+  "title": "Detalles",
+  "artist": "Roberto Carlos",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "rocio-durcal-la-gata-bajo-la-lluvia",
+  "title": "La Gata Bajo La Lluvia",
+  "artist": "Rocio Durcal",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "shakira-antologia",
+  "title": "Antologia",
+  "artist": "Shakira",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "shakira-inevitable",
+  "title": "Inevitable",
+  "artist": "Shakira",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "shakira-moscas-en-la-casa",
+  "title": "Moscas en la casa",
+  "artist": "Shakira",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "shakira-pies-descalzos",
+  "title": "Pies Descalzos",
+  "artist": "Shakira",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "soda-stereo-ciudad-de-la-furia",
+  "title": "Ciudad de la Furia",
+  "artist": "Soda Stereo",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "soda-stereo-cuando-pase-el-temblor",
+  "title": "Cuando Pase el temblor",
+  "artist": "Soda Stereo",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "soda-stereo-de-musica-ligera",
+  "title": "De musica Ligera",
+  "artist": "Soda Stereo",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "soda-stereo-ella-uso-mi-cabeza-como-un-revolver",
+  "title": "Ella uso mi cabeza como un revolver",
+  "artist": "Soda Stereo",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "soda-stereo-persiana-americana",
+  "title": "Persiana Americana",
+  "artist": "Soda Stereo",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "soda-stereo-signos",
+  "title": "Signos",
+  "artist": "Soda Stereo",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "soda-stereo-sobredosis-de-tv",
+  "title": "Sobredosis de TV",
+  "artist": "Soda Stereo",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "soda-stereo-te-para-tres",
+  "title": "Te para tres",
+  "artist": "Soda Stereo",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "soda-stereo-tratame-suavemente",
+  "title": "Tratame Suavemente",
+  "artist": "Soda Stereo",
+  "lang": "es",
+  "tags": []
+ },
+ {
+  "slug": "sublime-santeria",
+  "title": "Santeria",
+  "artist": "Sublime",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "te-lo-pido-de-rodillas-los-iracundos",
+  "title": "Te lo pido de rodillas",
+  "artist": "Los Iracundos",
+  "lang": "es",
+  "tags": [
+   "botellazos"
+  ]
+ },
+ {
+  "slug": "the-cranberries-zombie",
+  "title": "Zombie",
+  "artist": "The Cranberries",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "the-rolling-stones-angie",
+  "title": "Angie",
+  "artist": "The Rolling Stones",
+  "lang": "en",
+  "tags": []
+ },
+ {
+  "slug": "whats-up-four-non-blondes",
+  "title": "What's up",
+  "artist": "4 Non Blondes",
+  "lang": "en",
+  "tags": []
+ }
+]

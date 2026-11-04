@@ -1,0 +1,13 @@
+{
+  "name": "la-guitarra-de-eduardo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import": "node tools/import-google-site.mjs",
+    "index": "node tools/build-index.mjs",
+    "serve": "node tools/serve.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.49.1"
+  }
+}
