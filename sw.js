@@ -2,7 +2,7 @@
 // Serves from cache immediately and refreshes it in the background.
 // Bump VERSION when the app files change to drop old caches.
 
-const VERSION = "v1";
+const VERSION = "v2";
 const CACHE = `guitarra-${VERSION}`;
 const SHELL = [
   "./", "index.html", "assets/style.css", "assets/app.js", "assets/chords.js",

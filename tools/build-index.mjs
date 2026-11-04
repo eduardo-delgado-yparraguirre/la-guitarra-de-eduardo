@@ -19,6 +19,7 @@ for (const file of files) {
     title: meta.title ?? file,
     artist: meta.artist ?? "",
     lang: meta.language ?? "",
+    genre: meta.genre ?? "",
     tags: meta.tags ? meta.tags.split(/\s*,\s*/) : [],
   });
 }

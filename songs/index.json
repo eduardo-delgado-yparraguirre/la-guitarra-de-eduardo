@@ -1,88 +1,98 @@
 [
  {
   "slug": "alanis-hand-in-my-pocket",
-  "title": "Hand in my pocket",
-  "artist": "Alanis",
+  "title": "Hand in My Pocket",
+  "artist": "Alanis Morissette",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
   "slug": "alanis-you-oughta-know",
   "title": "You Oughta Know",
-  "artist": "Alanis",
+  "artist": "Alanis Morissette",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
   "slug": "alma-corazon-y-vida",
-  "title": "Alma, Corazon, y Vida",
-  "artist": "",
+  "title": "Alma, Corazón y Vida",
+  "artist": "Adrián Flores Albán",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Vals criollo",
+  "tags": []
  },
  {
   "slug": "andres-calamaro-flaca",
   "title": "Flaca",
-  "artist": "Andres Calamaro",
+  "artist": "Andrés Calamaro",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "bacilos-cara-luna",
-  "title": "Cara Luna",
+  "title": "Caraluna",
   "artist": "Bacilos",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
   "slug": "bacilos-tabaco-y-channel",
-  "title": "Tabaco y Channel",
+  "title": "Tabaco y Chanel",
   "artist": "Bacilos",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
   "slug": "beatles-i-saw-her-standing-there-lyrics",
   "title": "I Saw Her Standing There",
-  "artist": "Beatles",
+  "artist": "The Beatles",
   "lang": "en",
+  "genre": "Rock & roll",
   "tags": []
  },
  {
   "slug": "beatles-imagine",
   "title": "Imagine",
-  "artist": "Beatles",
+  "artist": "John Lennon",
   "lang": "en",
+  "genre": "Pop",
   "tags": []
  },
  {
   "slug": "beatles-she-love-you-yeah",
-  "title": "She love you yeah",
-  "artist": "Beatles",
+  "title": "She Loves You",
+  "artist": "The Beatles",
   "lang": "en",
+  "genre": "Rock & roll",
   "tags": []
  },
  {
   "slug": "beatles-twist-and-shout",
-  "title": "Twist and shout",
-  "artist": "Beatles",
+  "title": "Twist and Shout",
+  "artist": "The Beatles",
   "lang": "en",
+  "genre": "Rock & roll",
   "tags": []
  },
  {
   "slug": "beatles-yesterday",
   "title": "Yesterday",
-  "artist": "Beatles",
+  "artist": "The Beatles",
   "lang": "en",
+  "genre": "Pop",
   "tags": []
  },
  {
   "slug": "blind-melon-no-rain",
-  "title": "No rain",
+  "title": "No Rain",
   "artist": "Blind Melon",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
@@ -90,13 +100,15 @@
   "title": "The Lazy Song",
   "artist": "Bruno Mars",
   "lang": "en",
+  "genre": "Pop",
   "tags": []
  },
  {
   "slug": "cake-i-will-survive",
-  "title": "I will survive",
+  "title": "I Will Survive",
   "artist": "Cake",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
@@ -104,31 +116,31 @@
   "title": "Yellow",
   "artist": "Coldplay",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
   "slug": "contigo-peru-zambo-cavero",
-  "title": "Contigo Peru",
-  "artist": "Zambo Cavero",
+  "title": "Contigo Perú",
+  "artist": "Arturo \"Zambo\" Cavero",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Vals criollo",
+  "tags": []
  },
  {
   "slug": "cuando-llora-mi-guitarra",
-  "title": "Cuando llora mi guitarra",
-  "artist": "",
+  "title": "Cuando Llora Mi Guitarra",
+  "artist": "Augusto Polo Campos",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Vals criollo",
+  "tags": []
  },
  {
   "slug": "eagles-hotel-california",
   "title": "Hotel California",
   "artist": "Eagles",
   "lang": "en",
+  "genre": "Rock",
   "tags": []
  },
  {
@@ -136,113 +148,127 @@
   "title": "El Último Beso",
   "artist": "Los Doltons",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Rock & roll",
+  "tags": []
  },
  {
   "slug": "el-ultimo-de-la-fila-como-un-burro-amarrado-en-la-puerta-del-baile",
-  "title": "Como un burro amarrado en la puerta del baile",
-  "artist": "El ultimo de la fila",
+  "title": "Como un Burro Amarrado en la Puerta del Baile",
+  "artist": "El Último de la Fila",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "enanitos-verdes-cada-vez-que-te-digo-adios",
-  "title": "Cada vez que te digo adios",
+  "title": "Cada Vez que Te Digo Adiós",
   "artist": "Enanitos Verdes",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "enanitos-verdes-el-guerrero",
-  "title": "El guerrero",
+  "title": "El Guerrero",
   "artist": "Enanitos Verdes",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "enanitos-verdes-igual-que-ayer",
-  "title": "Igual que ayer",
+  "title": "Igual que Ayer",
   "artist": "Enanitos Verdes",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "enanitos-verdes-la-muralla-verde",
-  "title": "La muralla verde",
+  "title": "La Muralla Verde",
   "artist": "Enanitos Verdes",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "enanitos-verdes-lamento-boliviano",
-  "title": "Lamento boliviano",
+  "title": "Lamento Boliviano",
   "artist": "Enanitos Verdes",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "enanitos-verdes-por-el-resto",
-  "title": "Por el resto",
+  "title": "Por el Resto",
   "artist": "Enanitos Verdes",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "enanitos-verdes-te-vi-en-un-tren",
-  "title": "Te vi en un tren",
+  "title": "Te Vi en un Tren",
   "artist": "Enanitos Verdes",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "fonsi-despacito",
   "title": "Despacito",
-  "artist": "Fonsi",
+  "artist": "Luis Fonsi",
   "lang": "es",
+  "genre": "Reggaetón",
   "tags": []
  },
  {
   "slug": "gianmarco-dos-historias",
-  "title": "Dos historias",
+  "title": "Dos Historias",
   "artist": "Gianmarco",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
   "slug": "gianmarco-no-puedo-amarte",
-  "title": "No puedo amarte",
+  "title": "No Puedo Amarte",
   "artist": "Gianmarco",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
   "slug": "gianmarco-se-que-piensas-en-mi",
-  "title": "Se que piensas en mi",
+  "title": "Sé que Piensas en Mí",
   "artist": "Gianmarco",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
   "slug": "gianmarco-te-mentiria",
-  "title": "Te mentiria",
+  "title": "Te Mentiría",
   "artist": "Gianmarco",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
   "slug": "gianmarco-tomate-el-tiempo-que-quieras",
-  "title": "Tomate el tiempo que quieras",
+  "title": "Tómate el Tiempo que Quieras",
   "artist": "Gianmarco",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
   "slug": "git-ana",
   "title": "Ana",
-  "artist": "Git",
+  "artist": "GIT",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
@@ -250,29 +276,31 @@
   "title": "Basket Case",
   "artist": "Green Day",
   "lang": "en",
+  "genre": "Punk rock",
   "tags": []
  },
  {
   "slug": "hector-lavoe-el-cantante",
-  "title": "El cantante",
-  "artist": "Hector Lavoe",
+  "title": "El Cantante",
+  "artist": "Héctor Lavoe",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Salsa",
+  "tags": []
  },
  {
   "slug": "jarabe-de-palo-flaca",
-  "title": "Flaca",
+  "title": "La Flaca",
   "artist": "Jarabe de Palo",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "journey-dont-stop-believing",
-  "title": "Don't stop believing",
+  "title": "Don't Stop Believin'",
   "artist": "Journey",
   "lang": "en",
+  "genre": "Rock",
   "tags": []
  },
  {
@@ -280,13 +308,15 @@
   "title": "Hembra",
   "artist": "Libido",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "libido-la-casa-de-los-gritos",
-  "title": "La casa de los gritos",
+  "title": "La Casa de los Gritos",
   "artist": "Libido",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
@@ -294,6 +324,7 @@
   "title": "Libido",
   "artist": "Libido",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
@@ -301,6 +332,7 @@
   "title": "Respirando",
   "artist": "Libido",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
@@ -308,13 +340,15 @@
   "title": "Tres",
   "artist": "Libido",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "los-rodriguez-sin-documentos",
-  "title": "Sin documentos",
-  "artist": "Los Rodriguez",
+  "title": "Sin Documentos",
+  "artist": "Los Rodríguez",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
@@ -322,142 +356,151 @@
   "title": "Sweet Home Alabama",
   "artist": "Lynyrd Skynyrd",
   "lang": "en",
+  "genre": "Rock",
   "tags": []
  },
  {
   "slug": "magdalena-nsqnsc",
   "title": "Magdalena",
-  "artist": "NSQNSC",
+  "artist": "Nosequién y los Nosecuántos",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Rock en español",
+  "tags": []
  },
  {
   "slug": "mana-clavado-en-un-bar",
-  "title": "Clavado en un bar",
-  "artist": "Mana",
+  "title": "Clavado en un Bar",
+  "artist": "Maná",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mana-corazon-espinado",
-  "title": "Corazon Espinado",
-  "artist": "Mana",
+  "title": "Corazón Espinado",
+  "artist": "Maná",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mana-me-vale",
-  "title": "Me vale",
-  "artist": "Mana",
+  "title": "Me Vale",
+  "artist": "Maná",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mana-oye-mi-amor",
-  "title": "Oye mi amor",
-  "artist": "Mana",
+  "title": "Oye Mi Amor",
+  "artist": "Maná",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mana-rayando-el-sol",
   "title": "Rayando el Sol",
-  "artist": "Mana",
+  "artist": "Maná",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mana-sigue-lloviendo",
-  "title": "Sigue lloviendo",
-  "artist": "Mana",
+  "title": "Sigue Lloviendo",
+  "artist": "Maná",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mana-tu-tienes-lo-que-quiero",
-  "title": "Tu tienes lo que quiero",
-  "artist": "Mana",
+  "title": "Tú Tienes lo que Quiero",
+  "artist": "Maná",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mana-vivir-sin-aire",
-  "title": "Vivir sin aire",
-  "artist": "Mana",
+  "title": "Vivir sin Aire",
+  "artist": "Maná",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mar-de-copas-adios-amor",
-  "title": "Adios amor",
+  "title": "Adiós Amor",
   "artist": "Mar de Copas",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mar-de-copas-otra-cancion",
-  "title": "Otra cancion",
+  "title": "Otra Canción",
   "artist": "Mar de Copas",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mar-de-copas-prendi-otro-fuego-por-ella",
-  "title": "Prendi otro fuego por ella",
+  "title": "Prendí Otro Fuego por Ella",
   "artist": "Mar de Copas",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mi-peru-hermanos-zanartu",
-  "title": "Mi Peru",
-  "artist": "Hermanos Zanartu",
+  "title": "Mi Perú",
+  "artist": "Hermanos Zañartu",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Vals criollo",
+  "tags": []
  },
  {
   "slug": "mojarras-triciclo-peru",
-  "title": "Triciclo Peru",
-  "artist": "Mojarras",
+  "title": "Triciclo Perú",
+  "artist": "Los Mojarras",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "mostro-de-almendariz-nsqnsc",
-  "title": "Mostro de Almendariz",
-  "artist": "NSQNSC",
+  "title": "Mostro de Almendáriz",
+  "artist": "Nosequién y los Nosecuántos",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Rock en español",
+  "tags": []
  },
  {
   "slug": "nino-bravo-libre",
   "title": "Libre",
   "artist": "Nino Bravo",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Balada",
+  "tags": []
  },
  {
   "slug": "nino-bravo-un-beso-y-una-flor",
-  "title": "Un beso y una flor",
+  "title": "Un Beso y una Flor",
   "artist": "Nino Bravo",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Balada",
+  "tags": []
  },
  {
   "slug": "oasis-dont-look-back-in-anger",
-  "title": "Don't Look Back In Anger",
+  "title": "Don't Look Back in Anger",
   "artist": "Oasis",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
@@ -465,29 +508,31 @@
   "title": "Wonderwall",
   "artist": "Oasis",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
   "slug": "pasamayo-maldito-nsqnsc",
   "title": "Pasamayo Maldito",
-  "artist": "NSQNSC",
+  "artist": "Nosequién y los Nosecuántos",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Rock en español",
+  "tags": []
  },
  {
   "slug": "prisioneros-estrechez-de-corazon",
-  "title": "Estrechez de Corazon",
-  "artist": "Prisioneros",
+  "title": "Estrechez de Corazón",
+  "artist": "Los Prisioneros",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "prisioneros-tren-al-sur",
   "title": "Tren al Sur",
-  "artist": "Prisioneros",
+  "artist": "Los Prisioneros",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
@@ -495,15 +540,15 @@
   "title": "Puerto Montt",
   "artist": "Los Iracundos",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Balada",
+  "tags": []
  },
  {
   "slug": "queen-crazy-little-thing-called-love",
   "title": "Crazy Little Thing Called Love",
   "artist": "Queen",
   "lang": "en",
+  "genre": "Rock",
   "tags": []
  },
  {
@@ -511,6 +556,7 @@
   "title": "Don't Stop Me Now",
   "artist": "Queen",
   "lang": "en",
+  "genre": "Rock",
   "tags": []
  },
  {
@@ -518,13 +564,15 @@
   "title": "High and Dry",
   "artist": "Radiohead",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
   "slug": "rem-loosing-my-religion",
-  "title": "Losing my religion",
+  "title": "Losing My Religion",
   "artist": "R.E.M.",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
@@ -532,24 +580,23 @@
   "title": "Detalles",
   "artist": "Roberto Carlos",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Balada",
+  "tags": []
  },
  {
   "slug": "rocio-durcal-la-gata-bajo-la-lluvia",
-  "title": "La Gata Bajo La Lluvia",
-  "artist": "Rocio Durcal",
+  "title": "La Gata Bajo la Lluvia",
+  "artist": "Rocío Dúrcal",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Balada",
+  "tags": []
  },
  {
   "slug": "shakira-antologia",
-  "title": "Antologia",
+  "title": "Antología",
   "artist": "Shakira",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
@@ -557,48 +604,55 @@
   "title": "Inevitable",
   "artist": "Shakira",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
   "slug": "shakira-moscas-en-la-casa",
-  "title": "Moscas en la casa",
+  "title": "Moscas en la Casa",
   "artist": "Shakira",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
   "slug": "shakira-pies-descalzos",
-  "title": "Pies Descalzos",
+  "title": "Pies Descalzos, Sueños Blancos",
   "artist": "Shakira",
   "lang": "es",
+  "genre": "Pop latino",
   "tags": []
  },
  {
   "slug": "soda-stereo-ciudad-de-la-furia",
-  "title": "Ciudad de la Furia",
+  "title": "En la Ciudad de la Furia",
   "artist": "Soda Stereo",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "soda-stereo-cuando-pase-el-temblor",
-  "title": "Cuando Pase el temblor",
+  "title": "Cuando Pase el Temblor",
   "artist": "Soda Stereo",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "soda-stereo-de-musica-ligera",
-  "title": "De musica Ligera",
+  "title": "De Música Ligera",
   "artist": "Soda Stereo",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "soda-stereo-ella-uso-mi-cabeza-como-un-revolver",
-  "title": "Ella uso mi cabeza como un revolver",
+  "title": "Ella Usó Mi Cabeza como un Revólver",
   "artist": "Soda Stereo",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
@@ -606,6 +660,7 @@
   "title": "Persiana Americana",
   "artist": "Soda Stereo",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
@@ -613,6 +668,7 @@
   "title": "Signos",
   "artist": "Soda Stereo",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
@@ -620,20 +676,23 @@
   "title": "Sobredosis de TV",
   "artist": "Soda Stereo",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "soda-stereo-te-para-tres",
-  "title": "Te para tres",
+  "title": "Té para Tres",
   "artist": "Soda Stereo",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
   "slug": "soda-stereo-tratame-suavemente",
-  "title": "Tratame Suavemente",
+  "title": "Trátame Suavemente",
   "artist": "Soda Stereo",
   "lang": "es",
+  "genre": "Rock en español",
   "tags": []
  },
  {
@@ -641,22 +700,23 @@
   "title": "Santeria",
   "artist": "Sublime",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
   "slug": "te-lo-pido-de-rodillas-los-iracundos",
-  "title": "Te lo pido de rodillas",
+  "title": "Te lo Pido de Rodillas",
   "artist": "Los Iracundos",
   "lang": "es",
-  "tags": [
-   "botellazos"
-  ]
+  "genre": "Balada",
+  "tags": []
  },
  {
   "slug": "the-cranberries-zombie",
   "title": "Zombie",
   "artist": "The Cranberries",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  },
  {
@@ -664,13 +724,15 @@
   "title": "Angie",
   "artist": "The Rolling Stones",
   "lang": "en",
+  "genre": "Rock",
   "tags": []
  },
  {
   "slug": "whats-up-four-non-blondes",
-  "title": "What's up",
+  "title": "What's Up",
   "artist": "4 Non Blondes",
   "lang": "en",
+  "genre": "Rock alternativo",
   "tags": []
  }
 ]

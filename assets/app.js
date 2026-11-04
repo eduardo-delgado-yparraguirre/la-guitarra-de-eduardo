@@ -16,7 +16,8 @@ const store = {
   },
 };
 
-const prefs = Object.assign({ size: 18, theme: "", diagrams: true, lyricsOnly: false, sort: "artist" }, store.get("prefs", {}));
+const prefs = Object.assign({ size: 18, theme: "", diagrams: true, lyricsOnly: false, sort: "artist", desc: false }, store.get("prefs", {}));
+if (!["title", "artist", "lang", "genre"].includes(prefs.sort)) prefs.sort = "artist";
 const favs = new Set(store.get("favs", []));
 const savePrefs = () => store.set("prefs", prefs);
 const saveFavs = () => store.set("favs", [...favs]);
@@ -32,7 +33,7 @@ applyPrefs();
 // Data
 
 let songs = [];
-let listState = { q: "", chip: "all" };
+let listState = { q: "", chip: "all", genre: "" };
 let currentList = []; // the filtered list the user last saw, for prev/next
 let listScroll = 0;
 
@@ -42,24 +43,38 @@ const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">"
 async function loadIndex() {
   const res = await fetch("songs/index.json");
   songs = await res.json();
-  for (const s of songs) s.key = fold(`${s.title} ${s.artist}`);
+  for (const s of songs) {
+    s.langName = LANGS[s.lang] ?? s.lang;
+    s.key = fold(`${s.title} ${s.artist} ${s.genre} ${s.langName}`);
+  }
 }
+
+const LANGS = { es: "Español", en: "English" };
 
 const CHIPS = [
   { id: "all", label: "Todas", test: () => true },
   { id: "fav", label: "★ Favoritas", test: (s) => favs.has(s.slug) },
-  { id: "es", label: "Español", test: (s) => s.lang === "es" && !s.tags.includes("botellazos") },
+  { id: "es", label: "Español", test: (s) => s.lang === "es" },
   { id: "en", label: "English", test: (s) => s.lang === "en" },
-  { id: "botellazos", label: "Para agarrarnos a botellazos", test: (s) => s.tags.includes("botellazos") },
+];
+
+const COLUMNS = [
+  { id: "title", label: "Título", get: (s) => s.title },
+  { id: "artist", label: "Artista", get: (s) => s.artist },
+  { id: "lang", label: "Idioma", get: (s) => s.langName },
+  { id: "genre", label: "Género", get: (s) => s.genre },
 ];
 
 function filtered() {
   const chip = CHIPS.find((c) => c.id === listState.chip) ?? CHIPS[0];
   const words = fold(listState.q).split(/\s+/).filter(Boolean);
-  const by = prefs.sort === "title" ? (s) => fold(s.title) : (s) => fold(s.artist || s.title) + " " + fold(s.title);
+  const col = COLUMNS.find((c) => c.id === prefs.sort) ?? COLUMNS[1];
+  // Ties fall back to artist, then title.
+  const key = (s) => [col.get(s), s.artist, s.title].map((v) => fold(v || "~")).join("\u0000");
+  const dir = prefs.desc ? -1 : 1;
   return songs
-    .filter((s) => chip.test(s) && words.every((w) => s.key.includes(w)))
-    .sort((a, b) => by(a).localeCompare(by(b)));
+    .filter((s) => chip.test(s) && (!listState.genre || s.genre === listState.genre) && words.every((w) => s.key.includes(w)))
+    .sort((a, b) => dir * key(a).localeCompare(key(b)));
 }
 
 // ---------------------------------------------------------------------------
@@ -70,14 +85,18 @@ function renderList() {
   view.innerHTML = `
     <div class="search">
       <svg><use href="#i-search"/></svg>
-      <input id="q" type="search" placeholder="Buscar canción o artista…" autocomplete="off" value="${esc(listState.q)}">
+      <input id="q" type="search" placeholder="Buscar canción, artista o género…" autocomplete="off" value="${esc(listState.q)}">
       <button class="icon-btn clear" id="clear" aria-label="Borrar" ${listState.q ? "" : "hidden"}><svg><use href="#i-x"/></svg></button>
     </div>
     <div class="chips" role="toolbar">
       ${CHIPS.map((c) => `<button class="chip" data-chip="${c.id}" aria-pressed="${c.id === listState.chip}">${c.label}</button>`).join("")}
+      <select class="chip genre-select" id="genre" aria-label="Género">
+        <option value="">Todos los géneros</option>
+        ${[...new Set(songs.map((s) => s.genre).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"))
+          .map((g) => `<option${g === listState.genre ? " selected" : ""}>${esc(g)}</option>`).join("")}
+      </select>
     </div>
-    <div class="list-meta"><span id="count"></span>
-      <button class="link-btn" id="sort">Ordenar por ${prefs.sort === "title" ? "artista" : "título"}</button></div>
+    <div class="list-meta"><span id="count"></span></div>
     <div id="results"></div>`;
 
   const q = $("#q");
@@ -92,10 +111,8 @@ function renderList() {
     view.querySelectorAll(".chip").forEach((x) => x.setAttribute("aria-pressed", x === b));
     renderResults();
   }));
-  $("#sort").onclick = () => {
-    prefs.sort = prefs.sort === "title" ? "artist" : "title";
-    savePrefs();
-    $("#sort").textContent = `Ordenar por ${prefs.sort === "title" ? "artista" : "título"}`;
+  $("#genre").onchange = (e) => {
+    listState.genre = e.target.value;
     renderResults();
   };
   renderResults();
@@ -111,26 +128,40 @@ function renderResults() {
       : "No encontré nada. Prueba con otra palabra."}</p>`;
     return;
   }
-  let html = "";
-  let letter = "";
-  for (const s of currentList) {
-    const head = fold((prefs.sort === "title" ? s.title : s.artist || s.title)[0] ?? "#").toUpperCase();
-    if (head !== letter) {
-      if (letter) html += "</ul>";
-      letter = head;
-      html += `<div class="letter">${esc(letter)}</div><ul class="songs">`;
-    }
+  const arrow = prefs.desc ? "▼" : "▲";
+  const btn = (id, label, cls = "") => `<button class="${cls}${id === prefs.sort ? " on" : ""}" data-sort="${id}">${label}<span class="arrow">${id === prefs.sort ? arrow : ""}</span></button>`;
+  const head = COLUMNS.map((c) => `<th class="col-${c.id}">${
+    c.id === "title" ? `<div class="th-pair">${btn("title", "Título")}${btn("artist", "Artista", "phone-only")}</div>` // artist column is hidden on phones
+    : c.id === "lang" ? btn("lang", `<span class="lang-full">Idioma</span><span class="lang-short">Id.</span>`)
+    : btn(c.id, c.label)}</th>`).join("");
+  const rows = currentList.map((s) => {
     const fav = favs.has(s.slug);
-    html += `<li class="song-row">
-      <a href="#/s/${s.slug}"><span class="t">${esc(s.title)}</span><span class="a">${esc(s.artist || "—")}</span></a>
-      <button class="icon-btn star" data-fav="${s.slug}" aria-pressed="${fav}" aria-label="Favorita"><svg><use href="#i-star${fav ? "" : "-o"}"/></svg></button>
-    </li>`;
-  }
-  $("#results").innerHTML = html + "</ul>";
-  $("#results").querySelectorAll("[data-fav]").forEach((b) => (b.onclick = () => {
+    return `<tr data-slug="${s.slug}">
+      <td class="col-title"><a href="#/s/${s.slug}">${esc(s.title)}</a><span class="sub">${esc(s.artist)}</span></td>
+      <td class="col-artist">${esc(s.artist)}</td>
+      <td class="col-lang"><span class="lang-full">${esc(s.langName)}</span><span class="lang-short">${esc(s.lang.toUpperCase())}</span></td>
+      <td class="col-genre">${esc(s.genre)}</td>
+      <td class="col-fav"><button class="icon-btn star" data-fav="${s.slug}" aria-pressed="${fav}" aria-label="Favorita"><svg><use href="#i-star${fav ? "" : "-o"}"/></svg></button></td>
+    </tr>`;
+  }).join("");
+  $("#results").innerHTML = `<table class="song-table"><thead><tr>${head}<th class="col-fav"></th></tr></thead><tbody>${rows}</tbody></table>`;
+
+  $("#results").querySelectorAll("[data-sort]").forEach((b) => (b.onclick = () => {
+    if (prefs.sort === b.dataset.sort) prefs.desc = !prefs.desc;
+    else { prefs.sort = b.dataset.sort; prefs.desc = false; }
+    savePrefs();
+    renderResults();
+  }));
+  $("#results").querySelectorAll("[data-fav]").forEach((b) => (b.onclick = (e) => {
+    e.stopPropagation();
     toggleFav(b.dataset.fav, b);
     if (listState.chip === "fav") renderResults();
   }));
+  // The whole row opens the song, not just the title.
+  $("#results tbody").onclick = (e) => {
+    const tr = e.target.closest("tr[data-slug]");
+    if (tr && !e.target.closest("a, button")) location.hash = `#/s/${tr.dataset.slug}`;
+  };
 }
 
 function toggleFav(slug, btn) {

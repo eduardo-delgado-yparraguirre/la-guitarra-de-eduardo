@@ -2,7 +2,7 @@
 
 Eduardo's guitar songbook: lyrics and rhythm chords, built to read and play from a phone.
 
-- Instant search, filters (Español / English / Botellazos / Favoritas), random song
+- Song table (title, artist, language, genre) sortable by any column; search, language and genre filters, favorites, random song
 - Chords stay on their syllable at any screen width; tap a chord to see its fingering
 - Transpose, auto-scroll, text size, dark and high-contrast "stage" themes
 - Screen stays on while a song is open; works offline once visited (installable on the phone)
@@ -15,7 +15,8 @@ Each song is a text file in `songs/` in [ChordPro](https://www.chordpro.org/) fo
 
 ```
 {title: Rayando el Sol}
-{artist: Mana}
+{artist: Maná}
+{genre: Rock en español}
 {language: es}
 {key: G}
 {capo: 2}
@@ -26,13 +27,23 @@ Each song is a text file in `songs/` in [ChordPro](https://www.chordpro.org/) fo
 Rayando [G]el [C]sol
 ```
 
-`{key}`, `{capo}`, `{tempo}`, `{strum}`, `{youtube}` and `{tags: botellazos}` are optional and show up on the song page.
+`{key}`, `{capo}`, `{tempo}`, `{strum}` and `{youtube}` are optional and show up on the song page.
 
-After adding or editing songs, rebuild the list:
+After editing songs, rebuild the list:
 
 ```
 npm run index
 ```
+
+### Adding a new song
+
+Copy the song from any chord website (chords on the line above the lyrics) into a text file, then:
+
+```
+node tools/add-song.mjs cancion.txt --title "Persiana Americana" --artist "Soda Stereo" --lang es --genre "Rock en español"
+```
+
+It writes `songs/<artist>-<title>.cho` and updates the list.
 
 ## Preview locally
 
