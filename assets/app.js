@@ -445,8 +445,8 @@ function route() {
   const hash = location.hash || "#/";
   if (lastRoute === "#/" || lastRoute === "") listScroll = scrollY;
   setScrolling(false);
-  const m = hash.match(/^#\/s\/([\w-]+)/);
-  if (m) renderSong(m[1]);
+  const m = hash.match(/^#\/s\/([^/?#]+)/);
+  if (m) renderSong(decodeURIComponent(m[1]));
   else renderList();
   lastRoute = hash.startsWith("#/s/") ? hash : "#/";
 }

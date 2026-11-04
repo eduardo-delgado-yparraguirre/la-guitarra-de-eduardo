@@ -251,7 +251,8 @@ async function main() {
       head.push(`{language: ${song.lang}}`);
       if (song.tags.length) head.push(`{tags: ${song.tags.join(", ")}}`);
       head.push(`{source: ${SITE}/view/eduardodelgado/${song.slug}}`, "");
-      await writeFile(join(OUT, `${song.slug}.cho`), [...head, ...body, ""].join("\n"), "utf8");
+      const file = decodeURIComponent(song.slug).normalize("NFD").replace(/[̀-ͯ]/g, "");
+      await writeFile(join(OUT, `${file}.cho`), [...head, ...body, ""].join("\n"), "utf8");
       console.log(`  ✓ ${song.slug} (${body.length} lines)`);
     } catch (err) {
       problems.push(`${song.slug}: ${err.message}`);
