@@ -5,19 +5,21 @@
 {key: Em}
 {link: https://acordesweb.com/cancion/libido/fragil}
 
-{comment: Solo acordes — toca "Letra y acordes" arriba para ver la letra}
-
 {comment: Intro}
-[Em] [C] [Em]
+[Em] - [Am] - [Em] - [C] x2
 
-{comment: Verso}
-[Em] [C5] [Em] [C5] [B]
-[Em] [C5] [Em] [C5] [Em] [B]
-[Em]
-[Em] [C5] [Em] [C5] [Em] [B]
-[Em] [C5] [Em] [C5] [B]
-[Em] [C5] [B5] [Em]
+{comment: Verso 1}
+[Em]Frágil no [Am]se ha vuelto [Em]fácil man[C]darlo al olvi[Em]do a un fr[Am]io cañ[B]ón
+[Em]tierna y ase[Am]sina perfe[Em]cta de mis [C]ganas de odi[Em]arte de mor[Am]irme en tu [B]voz
+en una dulce pesadilla
+[Em] - [Am] [Em] [C]
+
+{comment: Verso 2}
+[Em]cautivo en mi [Am]cuerpo rendido [Em]de bus[C]car el sen[Em]tido que par[Am]tiste en [B]dos
+[Em]y facil ten[Am]go mil raz[Em]ones para [C]extrañar [Em]tu las pud[Am]iste olvid[B]ar
+y enciendo mis luces de [B]dia porque espero todavia
 
 {comment: Coro}
-[Em] [D] [C] [G] [Em]
-[D] [C] [G] [Em]
+[Em]grito al [D]cielo tu [B]nombre y el [C5]viento lo [G5]esconde [D]en su va[A]nidad
+[Em]sigo si[D]endo el mend[B]igo que [C5]espera re[G5]ndido [D]gotas de hu[A]manidad
+gotas de humanidad
